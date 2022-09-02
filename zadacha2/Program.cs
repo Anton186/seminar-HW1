@@ -12,11 +12,7 @@ if (numberA > numberB)
 {
     Console.WriteLine("Число " + numberA + " больше");
 }
-else if (numberA < numberB)
+else 
 {
     Console.WriteLine("Число " + numberB + " больше");
-}
-else
-{
-    Console.WriteLine("Эти числа равны!");
 }

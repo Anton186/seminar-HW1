@@ -10,16 +10,15 @@ Console.WriteLine("Напишите второе число");
 int numberB = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Напишите третье число");
 int numberC = Convert.ToInt32(Console.ReadLine());
+int numberMax = numberA;
 
-if (numberA > numberB)
+
+if (numberA < numberB)
 {
-    Console.WriteLine("Число " + numberA + " больше");
+    numberMax = numberB;
 }
-else if (numberA < numberB)
+if (numberMax < numberC)
 {
-    Console.WriteLine("Число " + numberB + " больше");
+    numberMax = numberC;
 }
-else
-{
-    Console.WriteLine("Эти числа равны!");
-}
+Console.WriteLine("Число " + numberMax + " максимальное");
