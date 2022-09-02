@@ -11,8 +11,10 @@ int numberB = Convert.ToInt32(Console.ReadLine());
 if (numberA > numberB)
 {
     Console.WriteLine("Число " + numberA + " больше");
+    Console.WriteLine("Число " + numberB + " меньше");
 }
 else 
 {
+    Console.WriteLine("Число " + numberA + " меньше");
     Console.WriteLine("Число " + numberB + " больше");
 }
